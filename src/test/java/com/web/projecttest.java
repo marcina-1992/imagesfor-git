@@ -14,6 +14,7 @@ public class projecttest {
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		System.out.println(driver.findElement(By.tagName("a")).getText());
+		System.out.println("maven process completed successfully");
 
 }
 }
